@@ -1,0 +1,150 @@
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background: #0fbcf9;
+}
+.header-logo img{
+    width: 220px;
+  
+}
+
+.primary-menu{}
+.primary-menu ul{
+    margin-bottom: 0;
+    text-align: right;
+    margin-left: -4px;
+
+}
+
+.primary-menu ul li:nth-child(1){
+    border-left: 1px solid #fff;
+}
+
+.primary-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+      
+}
+
+.primary-menu ul li a{
+    display: inline-block;
+    color: #fff;
+    padding: 0 30px;
+    font-size: 20px;
+    line-height: 74px;
+    border-right: 1px solid #fff;
+    transition: .4s;
+ 
+}
+.primary-menu ul li a:hover{
+    background: #0097e6;
+}
+
+.banner{
+   background-image: url(https://i.ibb.co/t3KDHxC/image-slider-with-thumbnail1.jpg); 
+   padding: 200px 0;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.card{
+    background: #D980FA;
+}
+
+
+
+
+
+ .banner-text h1{
+     color: #fff;
+     background: #9AECDB;
+     display: inline-block;
+     padding: 10px 20px;
+     border-radius: 5px;
+     
+ }
+
+
+
+.banner-text h2{
+   color: #fff;
+   font-size: 35px;
+   background: #1B9CFC;
+   border-radius: 5px;
+   display: inline-block;
+   padding: 8px 20px;
+     
+}
+
+
+
+.about{
+    background: #ecf0f1;
+}
+
+.service{
+    background: #ecf0f1;
+}
+
+.service span{
+    background: #D980FA;
+    font-size: 30px;
+    color:#fff;
+    position: relative;
+    display: inline-block;
+}
+
+.service:hover > span{
+    background: #80fab7;
+    padding: 25px 10px;
+}
+
+
+
+
+
+
+
+
+img{
+    max-width: 100%;
+}
+
+.product-item p{
+    font-size: 25PX;
+}
+
+.product-right ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.product-right ul li{
+    background: #f7f7f7;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.footer{
+    background: #fff;
+}
+.footer p{
+    margin-bottom: 0;
+}
+.footer a{
+    color: #fff;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.title1{
+    margin-top: 80px;
+    
+}
+
+.title2{
+    margin-top: 190px;
+}
